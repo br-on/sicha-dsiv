@@ -1,0 +1,9 @@
+body {
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    border: solid 2px black;
+}

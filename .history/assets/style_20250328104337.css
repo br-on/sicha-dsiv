@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Iansui&family=Jacques+Francois+Shadow&family=Kdam+Thmor+Pro&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.jacques-francois-shadow-regular {
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    height: auto;
+    width: 400px;
+    border: solid 2px black;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-logo, h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
