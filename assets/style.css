@@ -51,7 +51,7 @@ h2 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     padding: 3px;
-    color: #1c3b5c;
+    color: #011122;
 }
 
 form {
@@ -87,4 +87,10 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+@media (max-width: 760px) {
+    .container {
+        border: none;
+    }
 }
